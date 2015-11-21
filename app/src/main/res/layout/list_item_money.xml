@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_view"
+        android:layout_alignParentRight="true"
+        android:padding="4dp"/>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/liner_ist_doh"
+        android:text="@string/details"
+    >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            style="@style/TextViewStyle"
+            android:text="@string/istochnik_dohoda"
+
+            android:textIsSelectable="false" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Istochnik dohoda"
+            android:layout_weight="0"
+            style="@style/TextViewStyle"
+            android:id="@+id/ist_doh_list_item_titleTextView"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/line_sum_doh"
+        android:layout_below="@+id/liner_ist_doh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/details"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/summa"
+            android:layout_weight="0"
+            style="@style/TextViewStyle"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Summa"
+            style="@style/TextViewStyle"
+
+            android:layout_weight="0"
+            android:id="@+id/summa_dohoda_ist_item_textView"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/line_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line_sum_doh"
+                android:text="@string/details"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date_title"
+            android:layout_weight="0"
+           style="@style/TextViewStyle"
+            android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date Tex"
+        style="@style/TextViewStyle"
+        android:id="@+id/money_list_item_dateTextView"
+        android:layout_below="@+id/line_sum_doh"
+
+        />
+    </LinearLayout>
+
+</RelativeLayout>

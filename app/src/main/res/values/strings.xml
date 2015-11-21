@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Owne application</string>
+    <string name="action_settings">Settings</string>
+
+      <string name="crime_hint_title">Crime title</string>
+    <string name="date_title">Дата :</string>
+    <string name="first_name_title">Enter you name</string>
+    <string name="last_name_title">Enter you last name</string>
+    <string name="vvedi_dohod">Введите источник дохода </string>
+    <string name="rashod">Предмет расхода </string>
+    <string name="istochnik_dohoda">Источник дохода :</string>
+    <string name="summa">Сумма :</string>
+    <string name="vvod_summy">Введите сумму </string>
+    <string name="money_app">Money control</string>
+    <string name="crimes_title">Crimes</string>
+    <string name="details">Подробности</string>
+    <string name="date_picker_title">Дата поступления денег:</string>
+</resources>

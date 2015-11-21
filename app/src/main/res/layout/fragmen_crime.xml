@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+<include
+    android:id="@+id/tool_bar"
+    layout="@layout/tool_bar"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+       android:text="@string/istochnik_dohoda"
+        style="@style/Textzagolovki"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/title_istochnik_dohod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/vvedi_dohod"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/summa"
+            android:textStyle="bold"
+            style="@style/Textzagolovki"
+            android:gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/summa_dohoda"
+            android:hint="@string/vvod_summy"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/button_time"
+
+        style="@style/ButtonDate"/>
+
+
+</LinearLayout>
